@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import ProjectList from './components/ProjectList';
-import TaskList from './components/TaskList';
-import TimeTracker from './components/TimeTracker';
+import ProjectList from './ProjectList';
+import TaskList from './TaskList';
+import TimeTracker from './TimeTracker';
 
 function App() {
   const [projects, setProjects] = useState([]);
